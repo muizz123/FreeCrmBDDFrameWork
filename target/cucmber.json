@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-20T01:42:52.164Z",
+        "line": 3,
+        "name": "Contact Button feature",
+        "description": "",
+        "id": "new-contactpage-test;contact-button-feature",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11042060900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in Home page",
+            "match": {
+              "location": "NewContactPageSteps.user_is_in_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1462389900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Click The Contact link",
+            "match": {
+              "location": "NewContactPageSteps.user_Click_The_Contact_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 626600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to Land On Contact Page",
+            "match": {
+              "location": "NewContactPageSteps.user_should_be_able_to_Land_On_Contact_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "New ContactPage Test",
+    "description": "",
+    "id": "new-contactpage-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featurefile/NewContactPageFeature.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-20T01:43:04.733Z",
+        "line": 3,
+        "name": "User is Able To Login HomePage",
+        "description": "",
+        "id": "freecrm-application-test;user-is-able-to-login-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6829258700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in login Page",
+            "match": {
+              "location": "LoginPageSteps.user_is_in_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3154334100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter user_name and password",
+            "match": {
+              "location": "LoginPageSteps.user_enter_user_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9800000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to land on HomePage",
+            "match": {
+              "location": "LoginPageSteps.user_should_be_able_to_land_on_HomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM Application Test",
+    "description": "",
+    "id": "freecrm-application-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featurefile/freeCRM.feature",
+    "tags": []
+  }
+]

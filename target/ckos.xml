@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="22.563692">
+    <testcase classname="New ContactPage Test" name="Contact Button feature" time="12.564906">
+        <system-out>
+            <![CDATA[Given User is in Home page..................................................passed
+When User Click The Contact link............................................passed
+Then User should be able to Land On Contact Page............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="FreeCRM Application Test" name="User is Able To Login HomePage" time="9.998786">
+        <system-out>
+            <![CDATA[Given User is in login Page.................................................passed
+When User enter user_name and password......................................passed
+Then User should be able to land on HomePage................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
